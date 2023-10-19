@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Hero from './components/Hero/Hero';
+import About from './components/About/About'
 
 export default function Home() {
   // Initialise AOS (Animate On Scroll) lors du montage du composant
@@ -20,6 +21,7 @@ export default function Home() {
   return (
     <div>
       <Hero/>
+      <About/>
     </div>
   );
 }
