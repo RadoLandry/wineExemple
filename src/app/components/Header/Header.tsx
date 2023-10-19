@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Logo from '../../asset/images/pngwing.com (6).png'
+import vin from '../../asset/images/vin.webp'
 import Image from 'next/image'; 
 import Nav from "../Nav/Nav";
 import NavMobile from "../NavMobile/NavMobile";
@@ -15,7 +15,7 @@ const Header = () => {
             <div className="flex items-center gap-x-[120px]">
               <div>
                 <a href="#">
-                  <Image src={Logo} alt="" width={50} height={50} />
+                  <Image src={vin} alt="" width={50} height={50} />
                 </a>
               </div>
 

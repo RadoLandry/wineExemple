@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
             <button className='text-white bg-yellow-500 hover:bg-yellow-400 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2' data-aos="fade-down">Voir</button>
           </div>
 
-          <div className='xl:absolute xl:right-20'>
+          <div className='xl:absolute xl:right-20 flex justify-end'>
             <Image src={vin} alt='vin' width={500} height={100} data-aos="fade-up" data-aos-offset='500'/>
           </div>
       
