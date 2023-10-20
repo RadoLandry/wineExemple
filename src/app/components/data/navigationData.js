@@ -20,4 +20,3 @@ export const navigationData = [
     },
 ]
 
-// export const navigationData;

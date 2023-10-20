@@ -1,5 +1,5 @@
 import React from 'react';
-import {navigationData} from '../data/data'
+import {navigationData} from '../data/navigationData'
 
 
 const NavMobile: React.FC = () => {
