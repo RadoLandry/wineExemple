@@ -7,6 +7,8 @@ import 'aos/dist/aos.css';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About'
 import Features from './components/Features/Features';
+import Testimony from './components/Testimony/Testimony';
+
 
 export default function Home() {
   // Initialise AOS (Animate On Scroll) lors du montage du composant
@@ -24,6 +26,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Features/>
+      <Testimony/>
     </div>
   );
 }

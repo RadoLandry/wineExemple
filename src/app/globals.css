@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.SatisfyFont {
+  font-family: 'Satisfy';
+}
+
+.dancingFont {
+  font-family: 'Dancing Script', 'Helvetica Neue', cursive
+}
