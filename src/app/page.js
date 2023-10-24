@@ -8,6 +8,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About'
 import Features from './components/Features/Features';
 import Testimony from './components/Testimony/Testimony';
+import Footer from './components/Footer/Footer';
 
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <About/>
       <Features/>
       <Testimony/>
+      <Footer/>
     </div>
   );
 }
